@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+      <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+      <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+   <script src="node_modules/jquery/dist/jquery.min.js"</script>   
+   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+   <br>
+   </br>
+
+   <div class="row">
+
+         <div class="col 4">
+               <img id="design" src="design.jpg" class="img-fluid col 12" alt="Responsive image">
+         </div>
+         <div class="col 4">
+            <img id="web" src="web.jpg" class="img-fluid col 12" alt="Responsive image">
+         </div>
+      </div>
+      <br>
+      </br>
+      <div>
+      	<center><h1>Ceci est une page HTML de test</h1></center>
+      </div>
+
+      <div class="col l12 center">
+      <textarea id="text"></textarea>
+      <button id="bouton">Go !</button>
+
+ 
+	
+</body>
+<script type="text/javascript">
+	
+	var element = document.getElementById('bouton');
+	element.onclick = function()
+	{
+		var element2 = document.getElementById("text").value
+		alert(element2);
+	};
+
+	</script>
+</html>
